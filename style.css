@@ -1,0 +1,52 @@
+body {
+    background: grey;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+    background: darkslategrey;
+}
+
+#game-over {
+    top: 30%;
+    right: 43%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 250px;
+    height: 350px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#you-won, #you-lose {
+    width: 168px;
+}
+
+#restart {
+    color: red;
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1.5;
+    border: 2px solid #6198d8;
+    border-radius: 4px;
+    text-align: center;
+    transition: .1s ease-in-out;
+}
+
+#restart:hover {
+    background-color: #6898d8;
+}
