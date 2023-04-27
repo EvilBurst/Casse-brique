@@ -5,7 +5,7 @@ canvas.style.border = '3px solid black';
 ctx.lineWidth = 2;
 
 const SCORE_UNIT = 10;
-const MAX_LEVEL = 6;
+const MAX_LEVEL = 10;
 
 
 let leftArrow = false;
@@ -141,7 +141,7 @@ Ball.prototype.reset = function (canvas , Paddle){
 };
 
 const brick = {
-    row: 6,
+    row: 2,
     column: 11,
     width: 55,
     height: 20,
